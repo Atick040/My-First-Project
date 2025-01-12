@@ -1,0 +1,146 @@
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+/* font-family: "Fira Sans", sans-serif;
+ */
+ .work-sans-normal {
+    font-family: "Work Sans", serif;
+    font-optical-sizing: auto;
+    font-weight: 400; 
+    font-style: normal;
+    display=flex;
+ }
+    .first-div{
+
+        display: flex  ;
+        justify-content: space-between ;
+        width: Fixed (1,600px)px;
+height: 100px;
+padding: 24px 160px 24px 160px;
+gap: 0px;
+justify: space-between;
+opacity: 0px;
+
+    }
+    
+    .bd-font{
+
+       
+        font-size: 32px;
+        font-weight: 700;
+        line-height: 38.4px;
+        text-align: left;
+        text-decoration-skip-ink: none;
+        
+
+    }
+    
+ }
+    main section{
+        margin top:130px;
+        margin bottom:130px;
+    }
+}
+  .first-div {
+    display: flex;
+    width: 1600px;
+    height: 100px;
+    padding: 24px 160px;
+    gap: 0px;
+    justify-content: space-between;
+    opacity: 1; /* Example opacity */
+
+}
+
+.btn 
+{
+    width: 116px;
+    height:52px;
+    padding: 15px 30px 15px 30px;
+    gap: 48px; 
+    border-radius: 8px 0px 0px 0px;
+    border: 1px 0px 0px 0px;
+    opacity: 0px;
+ 
+    color: #006A50;
+    border-color: #006A50;
+
+
+}
+/*piller-section-style*/
+.piller-container
+{
+    display:flex;
+    gap:24px;
+    margin:0px 80px 160px;
+    
+}
+.piller{
+    padding:112px 24px 24px 24px;
+box-shadow: 0px 6px 50px 0px rgba(14, 14, 14, 0.15);
+border-radius: 8px;
+
+}
+.pillar-of-bangladesh
+{
+   
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 48px;
+    text-align: left;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    font color:rgba(14, 14, 14, 1);
+    margin:0px 80px 160px;
+
+}
+#hero{
+    display:flex;
+    background-color: #C6E4D6;
+    width: Fixed (1,280px)px;
+height: 560px;
+padding: 80px 100px 80px 100px;
+gap: 64px;
+border-radius: 24px 0px 0px 0px;
+opacity: 0px;
+justify-content: space-between ;
+margin: 20px 80px 160px;
+border-radius: 24px;
+}
+.ban{
+font-size: 24px;
+font-weight: 500;
+line-height: 28.8px;
+text-align: left;
+text-decoration-skip-ink: none;
+margin: 31px 0px 160px;
+
+
+}
+.idea-bd{
+
+    
+font-size: 56px;
+font-weight: 700;
+line-height: 67.2px;
+text-align: left;
+
+text-decoration-skip-ink: none;
+
+}
+.explore{
+
+    width: 270px;
+height: 56px;
+padding: 17px 34px 17px 34px;
+gap: 48px;
+border-radius: 8px 0px 0px 0px;
+opacity: 0px;
+background-color:#006A50;
+color:#FFFFFF;
+border-radius: 8px;
+border:none;
+}
+
+.the-vission{
+    display:flex
+
+}
