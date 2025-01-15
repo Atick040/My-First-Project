@@ -301,6 +301,145 @@ font-size:16px;
             background:#62c295;
             color: rgb(255, 255, 255);
             transition-duration: 0.4s;}
-   
+
+           
+            .headline {
+                font-size: 40px;
+                font-weight: 700;
+                line-height: 48px;
+                text-align: left;
+                color: rgba(14, 14, 14, 1); /* Corrected property */
+                margin: 0px 80px 160px;
+            }
+            #forum{
+                width: Fill 1,216px;
+height: 45px;
+gap: 24px;
+opacity: 0px;
+}
+.news{
+    margin: 0px 85px;
+}
+.no-1{
+display: flex   ;
+position: static;
+width: 1340px;
+height: 402px;
+display: flex;
+flex-direction: row;
+justify-content:;
+align-items: center;
+gap: 5px;
+padding: 48px;
+margin:24px 0px;
+
+flex: none;
+order: 0;
+align-self: stretch;
+flex-grow: 0;
+
+
+background-color: rgb(255, 255, 255);
+border-radius: 24px;
+box-sizing: border-box;
+border: 1px solid rgba(14, 14, 14, 0.15);
+
+
+
+}
+.tulip{
+position: static;
+width: 408px;
+height: 306px;
+flex: none;
+order: 0;
+flex-grow: 0;
+margin: 0px 10px;
+border-radius: 24px;
+
+}
+.details{
+    padding:0px 136px 25px 48px;
+
+
+}
+.headline1{
+margin: 12px 0px;
+color: rgba(14, 14, 14, 0.8);
+font-size: 32px;
+font-weight: 700;
+line-height: 38px;
+letter-spacing: 0%;
+text-align: left;
+
+
+Font weight: 700px;
+Font size: 32px;
+Row height: 38px;
+Letter spacing: 0%;
+Align:left;
+
+}
+.read-more {
+    background-color: rgb(0, 106, 80); 
+    width: 139px;
+    height: 48px;
+    padding: 11px 20px;
+    gap: 48px;
+    border-radius: 8px;
+    opacity: 1;
+    border: none;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 22px;
+    color: white;
+}
+.sea{
+    position: static;
+    width: 408px;
+
+    height: 306px;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+    margin: 12px 0px;
+    border-radius: 24px;
+
+    }
+    .architect{
+         position: static;
+            width: 408px;
+            height: 306px;
+            flex: none;
+            order: 0;
+            flex-grow: 0;
+            margin: 0px 10px;
+            border-radius: 24px;
+            direction:rtl;
+    }
+    .media{
+        margin-bottom:1px ;
+
+    }
+    .news-date{
     
+position: static;
+width: 400px;
+height: auto;
+
+padding: 0px;
+
+
+flex: none;
+order: 0;
+flex-grow: 0;
+margin: 0px 12px;
+color: rgba(14, 14, 14, 0.7);
+font-size: 16px;
+
+line-height: 24px;
+text-align: left;
+
+
+    }
 
