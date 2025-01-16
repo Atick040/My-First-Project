@@ -46,7 +46,7 @@ opacity: 0px;
     padding: 24px 160px;
     gap: 0px;
     justify-content: space-between;
-    opacity: 1; /* Example opacity */
+    opacity: 1; 
 
 }
 
@@ -72,11 +72,7 @@ Row height: 22px;
 Letter spacing: 0%;
 Align: left;}
 
-.btn:hover{
-    background: #006A50;
-    color: white;
-    transition-duration: 0.4s;
-}
+
 
 
 /*piller-section-style*/
@@ -425,33 +421,27 @@ color: rgba(14, 14, 14, 0.7);
 font-size: 16px;
 
 line-height: 24px;
-text-align: left;
+text-align: left;}
 
+.form{
+    
+    margin: 45px 85px;
+    background-color: rgb(255, 255, 255);
+border-radius: 24px;
+box-sizing: border-box;
+border: 1px solid rgba(14, 14, 14, 0.15);
+Width: 1340px;
+Height: 465px;
+}
+.opinion-table{
+padding:0px 55px;
 
-    }
-    .opinion-form{
-        width: 1280px;
-        display: flex;
-        flex-direction: column;
-        justify-content: flex-start;
-        align-items: flex-start;
-        gap: 24;
-        padding: 0px;
-        margin: auto;
-        }
-        .opinion-table{
-        width: 1280px;
-        display: flex;
-        flex-direction: column;
-        justify-content: flex-start;
-        align-items: flex-start;
-        gap: 24;
-        padding: 32px;
-        align-self: stretch;
-        flex-grow: 0;
-        margin: auto;
-        border-radius: 16px;
-        }
+}
+.headline{
+    margin-bottom:2rem;
+    margin-left: 1rem;
+}
+ 
         .thead{
             width: 1216px;
             height: 72px;
@@ -509,10 +499,7 @@ text-align: left;
             padding: 10px 14px 10px 14px;
             border-radius: 5px;
         }
-        .headline{
-            margin-bottom: 2rem;
-            margin-top: 3rem;
-        }
+       
         .opinion-header{
             font-family:"Fira Sans", serif;
             font-weight: bold;
