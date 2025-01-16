@@ -97,23 +97,41 @@ border-radius: 8px;
     line-height: 48px;
     text-align: left;
     font color:rgba(14, 14, 14, 1);
-    margin:0px 80px 160px;
-
+margin:0px 85px;
 }
 #hero{
     display:flex;
     background-color: #C6E4D6;
     width: Fixed (1,280px)px;
-height: 560px;
+height: 500px;
 padding: 80px 100px 80px 100px;
 gap: 64px;
 border-radius: 24px 0px 0px 0px;
 opacity: 0px;
 justify-content: space-between ;
-margin: 20px 80px 160px;
+margin: 8px 80px 160px;
 border-radius: 24px;
+margin-bottom: 90px;
+
 }
 .ban{
+   
+
+width: 622px;
+height: 0px;
+
+
+gap: 2px;
+
+
+
+color: rgba(14, 14, 14, 0.5);
+
+font-size: 24px;
+font-weight: 500;
+line-height: 29px;
+letter-spacing: 0%;
+text-align: left;
 
 
 
@@ -126,7 +144,6 @@ font-weight: 700;
 line-height: 67.2px;
 text-align: left;
 
-text-decoration-skip-ink: none;
 
 }
 .explore{
@@ -169,13 +186,17 @@ margin:17px 85px;
 .pra {
 
     margin:0px 85px;
+    
+
+
 }
 .future{
 font-size: 40px;
 font-weight: 700;
 line-height: 48px;
 text-align: left;
-margin:0px 85px;
+margin:5px 85px;
+margin-top: -90px;
 
 }
 .bx-1 {
@@ -237,7 +258,7 @@ padding: 48px 24px 48px 24px;
 flex: none;
 order: 0;
 flex-grow: 1;
-margin: 0px 24px;
+margin: 5px 24px;
 box-sizing: border-box;
 border: 1px solid rgba(14, 14, 14, 0.15);
 border-radius: 16px;
@@ -280,26 +301,7 @@ margin-top: 0px;
 font-size:16px;
 
 }
-   .explore:hover{
-            background:#62c295;
-            color: rgb(255, 255, 255);
-            transition-duration: 0.4s;}
-
-           
-            .headline {
-                font-size: 40px;
-                font-weight: 700;
-                line-height: 48px;
-                text-align: left;
-                color: rgba(14, 14, 14, 1); /* Corrected property */
-                margin: 0px 80px 160px;
-            }
-            #forum{
-                width: Fill 1,216px;
-height: 45px;
-gap: 24px;
-opacity: 0px;
-}
+  
 .news{
     margin: 0px 85px;
 }
@@ -548,7 +550,9 @@ padding:0px 55px;
             font-size: 20px;
             font-weight: 400;
             margin: -15px -30px 26px 0px;
-            border-bottom: 1px solid rgba(14, 14, 14, 0.15);
+            box-sizing: border-box;
+border: 1px solid rgba(14, 14, 14, 0.15);
+background: rgb(255, 255, 255);
           }
           
           .donation-btn {
@@ -564,10 +568,10 @@ padding:0px 55px;
           
           .newsletter {
             height: 350px;
-            width: 1280px;
+            width: 1340px;
             text-align: center;
             background-color: rgba(198, 228, 214, 1);
-            margin: 0px 160px 100px 160px;
+            margin: 0px 160px 85px 85px;
             border: none;
             border-radius: 24px;
           }
