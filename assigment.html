@@ -106,49 +106,50 @@
             <p class="about">Chief Adviser of the People's Republic of Bangladesh</p>
         
     </section>
-    <section class="forum">
-        <form action="form">
-          <h3 class="headline">Your Opinion Matters</h3>
-          <table>
-            <thead>
-              <tr>
-                <th>Question</th>
-                <th>Select your opinion</th>
-              </tr>
-            </thead>
-            <tbody>
-              <!-- tr*3>td+td>select>option*2 -->
-              <tr>
-                <td>Do you believe Bangladesh is on the right path toward becoming a developed nation?</td>
-                <td>
-                  <select name="q1" id="q1">
-                    <option value="agree">Yes,I Agree</option>
-                    <option value="disagree">No,I Don't</option>
-                  </select>
-                </td>
-              </tr>
-              <tr>
-                <td>Do you believe Bangladesh is on the right path toward becoming a developed nation?</td>
-                <td>
-                  <select name="q2" id="q2">
-                    <option value="agree">Yes,I Agree</option>
-                    <option value="disagree">No,I Don't</option>
-                  </select>
-                </td>
-              </tr>
-              <tr>
-                <td>Do you believe Bangladesh is on the right path toward becoming a developed nation?</td>
-                <td>
-                  <select name="q3" id="q3">
-                    <option value="agree">Yes,I Agree</option>
-                    <option value="disagree">No,I Don't</option>
-                  </select>
-                </td>
-              </tr>
-            </tbody>
-          </table>
-        </form>
-      </section>
+    <section class="form">
+      <form class="opinion-form" action="form">
+        <h2 class="headline">Your Opinion Matters</h2>
+        <table class="opinion-table">
+          <thead>
+            <tr class="thead">
+              <th>Question</th>
+              <th>Select your opinion</th>
+            </tr>
+          </thead>
+          <tbody>
+    
+            <tr class="trow">
+              <td>Do you believe Bangladesh is on the right path toward becoming a developed nation?</td>
+              <td class="option-data">
+                <select class="select-option" name="q1" id="q1">
+                  <option class="option" value="agree">Yes,I Agree</option>
+                  <option class="option" value="disagree">No,I Don't</option>
+                </select>
+              </td>
+            </tr>
+            <tr class="trow">
+              <td>Are renewable energy sources being actively promoted in Bangladesh ?</td>
+              <td class="option-data">
+                <select class="select-option" name="q2" id="q2">
+                  <option class="option" value="agree">Yes,I Agree</option>
+                  <option class="option" value="disagree">No,I Don't</option>
+                </select>
+              </td>
+            </tr>
+            <tr class="trow">
+              <td>Has Bangladesh achieved significant progress in reducing poverty over the last decade ?</td>
+              <td class="option-data">
+                <select class="select-option" name="q3" id="q3">
+                  <option class="option" value="agree">Yes,I Agree</option>
+                  <option class="option" value="disagree">No,I Don't</option>
+                </select>
+              </td>
+            </tr>
+          </tbody>
+        </table>
+      </form>
+    </section>
+    
 
 
 
@@ -214,8 +215,53 @@
           </div>
         </div>
       </section>
+      <section class="donation">
+        <h2 class="donation-h2"> Donate Today</h2>
+        <p class="donation-p">Bangladesh 2.0 aims to redefine the nation’s trajectory by embracing cutting-edge technology,
+          promoting inclusive growth, and ensuring sustainability. <br> With initiatives in renewable energy, digital
+          transformation, and robust infrastructure.</p>
+        <div class="ammounts">
+          <button class="100tk amount-btn">100</button>
+          <button class="200tk amount-btn">200</button>
+          <button class="500tk amount-btn">500</button>
+          <button class="1000tk amount-btn">1000</button>
+        </div>
+        <input class="other-ammount" type="text" placeholder="Other Amount (Taka)">
+        <br>
+        <button class="donation-btn">
+          Donate Now
+        </button>
+      </section>
+      
+      <section class="newsletter">
+        <h2 class="newsletter-title">Subscribe Newsletter</h2>
+        <p class="newsp">Bangladesh 2.0 aims to redefine the nation’s trajectory by embracing cutting-edge <br>
+          technology, promoting inclusive growth.</p>
+      
+        <input class="subinput" type="email" placeholder="Enter your email here">
+        <button class="btn2">Subscribe</button>
+      
+        <p class="spam-message">We promise not to spam you!</p>
+      </section>
+      
+
 
 </main>
+<footer>
+  <section class="links">
+    <div>
+      <h2 id="l-header">Bangladesh 2.0</h2>
+    </div>
+    <div class="l-div">
+      <a class="aaa" href="https://www.facebook.com/"><img src="assets/facebook.png" alt="facebook-pic"></a><a
+        href="https://www.instagram.com/"><img src="assets/instagram.png" alt=""></a><a href="https://x.com/"><img src="assets/x.png"
+          alt=""></a>
+    </div>
+  </section>
+
+
+
+</footer>
 
     
 </body>
